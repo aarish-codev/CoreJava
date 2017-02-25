@@ -7,6 +7,7 @@ import java.util.ListIterator;
 
 // Below are methods present in Collection and List Interfaces
 
+@SuppressWarnings("rawtypes")
 public class CollecandListMethods implements Collection,List
 {
 
