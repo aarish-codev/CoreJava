@@ -19,25 +19,25 @@ public class CollecandListMethods implements Collection,List
 		
 	}
 	
-	@Override
+	
 	public boolean add(Object e) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
-	@Override
+	
 	public boolean addAll(Collection c) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
-	@Override
+	
 	public void clear() {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	
 	public boolean contains(Object o) {
 		// TODO Auto-generated method stub
 		return false;
