@@ -3,6 +3,7 @@
 	<classpathentry kind="src" path="Collections"/>
 	<classpathentry kind="src" path="Map"/>
 	<classpathentry kind="src" path="MultiThreading"/>
+	<classpathentry kind="src" path="JavaLangPackage"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
