@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="Map"/>
 	<classpathentry kind="src" path="MultiThreading"/>
 	<classpathentry kind="src" path="JavaLangPackage"/>
+	<classpathentry kind="src" path="RegExpressions"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
