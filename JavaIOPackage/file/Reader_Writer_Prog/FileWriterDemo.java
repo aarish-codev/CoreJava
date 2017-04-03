@@ -1,4 +1,4 @@
-package fileClassProg;
+package file.Reader_Writer_Prog;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -12,7 +12,7 @@ public class FileWriterDemo
 	// Constructor 1) 
 	FileWriter fw = new FileWriter("abc.txt");
 	fw.close();
-	String path = "D:\\MyWork\\Eclipse Workspace for Java\\CoreJava\\JavaIOPackage\\fileClassProg";
+	String path = "D:\\MyWork\\Eclipse Workspace for Java\\CoreJava\\JavaIOPackage\\File\\Reader_Writer_Prog";
 	File f = new File(path,"abc.txt");
 //	Constructor 2)
 	FileWriter fw1 = new FileWriter(f);
@@ -31,6 +31,7 @@ public class FileWriterDemo
 	fw3.write("\r Meeting");
 	
 	fw3.flush();
+	fw2.close();
 	fw3.close();
 	
     }

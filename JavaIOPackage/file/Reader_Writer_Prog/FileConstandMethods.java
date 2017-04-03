@@ -1,4 +1,4 @@
-package fileClassProg;
+package file.Reader_Writer_Prog;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +9,7 @@ public class FileConstandMethods
     public static void main(String[] args) throws IOException
     {
 	// 1) File f = new File(dir_path, File name);
-	String path = "D:\\MyWork\\Eclipse Workspace for Java\\CoreJava\\JavaIOPackage\\fileClassProg";
+	String path = "D:\\MyWork\\Eclipse Workspace for Java\\CoreJava\\JavaIOPackage\\File\\Reader_Writer_Prog";
 	File f = new File(path,"abc.txt");
 	f.createNewFile();
 	System.out.println(f.exists());

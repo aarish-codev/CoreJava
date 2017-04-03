@@ -1,4 +1,4 @@
-package fileClassProg;
+package file.Reader_Writer_Prog;
 
 public class FileReaderDemo
 {
