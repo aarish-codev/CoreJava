@@ -1,32 +1,61 @@
 package List;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
 
 
 public class DemoAL1 {
 	
 	@SuppressWarnings({ "rawtypes", "unchecked", "unused" })
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// Constructor 1--> default  capacity = 10
-		ArrayList l1 = new ArrayList();
-		l1.add(10);
-		l1.add(20);
-		l1.add(1, 15);
-		System.out.println("-----------------Constructor methods------------------------");
-		System.out.println("Size of l1: "+l1.size());
-		System.out.println(l1);
-		System.out.println("Element at index 1: "+l1.get(1));
-		System.out.println(l1.isEmpty());
-		System.out.println(l1.contains(20));
-		System.out.println(l1.hashCode());
-		System.out.println(l1.getClass().getName());
-		// Constrcutor 2--> capacity = 20
-		ArrayList l2 = new ArrayList(20);
-		// Constructor 3
-		Integer i = new Integer(10);
-		ArrayList l3 = new ArrayList(i);
 		
+	    ArrayList al1 = new ArrayList(10);
+	    al1.add(1);
+	    al1.add(3);
+	    al1.add(1, 2);
+	    
+	    Collection c = new ArrayList();
+	    c.add(4);
+	    c.add(5);
+	    c.add(6);
+//	    c.add(3);
+	    
+	    al1.addAll(c);
+	    
+//	    System.out.println(al1.remove(5));
+	    System.out.println(al1.retainAll(al1));
+	    System.out.println(al1.size());
+	    al1.trimToSize();
+	    System.out.println(al1.size());
+//	    System.out.println("Debug: "+al1);
+//	    	Printing ArrayList elements
+//	    Method 1
+	    System.out.println("Using for each loop");
+	    for(Object i: al1) {
+		System.out.println(i);
+	    }
+//	    Method 2
+	    System.out.println("using syso");
+//	    System.out.println(al1);
+//	    Method 3
+	    System.out.println("Using for loop");
+	    for(int i =0; i<al1.size(); i++){
+		System.out.println(al1.get(i));
+	    }
+//	    Method 4
+	    System.out.println("Using iterator");
+	    Iterator<Integer> itr = al1.iterator();
+	    while(itr.hasNext()){
+		System.out.println(itr.next());
+	    }
+	    
+	    
+	    
+		
+	    
+				
 	}
 
 }
