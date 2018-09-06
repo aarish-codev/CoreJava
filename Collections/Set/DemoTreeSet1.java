@@ -16,6 +16,7 @@ public class DemoTreeSet1
 	s.add(9);
 	s.add(6);
 	s.add(4);
+	s.add(3);
 	
 	System.out.println("SIZE: "+s.size());
 	
