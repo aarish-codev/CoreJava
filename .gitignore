@@ -1,1 +1,6 @@
-/bin/
+bin/
+
+.gitignore
+out/
+.idea
+*.iml
